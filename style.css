@@ -46,6 +46,7 @@ body {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  transition: 0.6s;
 }
 
 .topnav a:hover {
@@ -92,6 +93,18 @@ body {
   text-align: center;
   background: #ddd;
   margin-top: 20px;
+  overflow-wrap: break-word;
+}
+
+@media(max-width: 600px){
+  .footer{
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    /* overflow-wrap: break-word; */
+    font-size: 12px;
+    
+  }
 }
 
 @media screen and (max-width: 800px) {
