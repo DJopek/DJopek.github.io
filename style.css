@@ -10,8 +10,8 @@ body {
 
 .header {
   padding: 30px;
-  text-align: center;
   background: white;
+  text-align: center;
 }
 
 .header .headerImage a img {
