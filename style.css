@@ -82,6 +82,21 @@ body {
   margin-top: 20px;
 }
 
+.iframecontainer{
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 50%;
+}
+
+.iframe{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 .row:after {
   content: "";
   display: table;
