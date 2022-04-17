@@ -1,0 +1,26 @@
+.blog {
+  display: -ms-grid;
+  display: grid;
+  text-align: center;
+}
+
+.blogcontainer {
+  display: -ms-grid;
+  display: grid;
+  margin-left: 25%;
+  margin-right: 75%;
+  place-items: center;
+}
+
+.post {
+  -webkit-box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  overflow-wrap: break-word;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.blog .blogcontainer .post:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
