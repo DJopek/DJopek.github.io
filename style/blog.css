@@ -54,12 +54,3 @@
     padding: 0;
   }
 }
-
-.xyz a {
-  display: -ms-grid;
-  display: grid;
-}
-
-.xyz a img {
-  width: 100%;
-}
