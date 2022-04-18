@@ -6,6 +6,8 @@
   -webkit-box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
           box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
   overflow-wrap: break-word;
+  text-align: justify;
+  text-justify: inter-word;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -51,4 +53,13 @@
     width: 100%;
     padding: 0;
   }
+}
+
+.xyz a {
+  display: -ms-grid;
+  display: grid;
+}
+
+.xyz a img {
+  width: 100%;
 }

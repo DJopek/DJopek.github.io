@@ -5,6 +5,8 @@
 	height: 350px;
 	box-shadow: 2px 2px 10px rgba(0, 0, 0, .5);
 	overflow-wrap: break-word;
+  text-align: justify;
+  text-justify: inter-word;
 
 	a{
 		display: grid;
@@ -46,4 +48,12 @@
 		width: 100%;
 		padding: 0;
 	}
+}
+.xyz{
+  a{
+    display: grid;
+    img{
+      width: 100%;
+    }
+  }
 }
