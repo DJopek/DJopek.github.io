@@ -21,7 +21,7 @@ body{
 	.headerImage{
 		
 		a{
-			
+
 			img{
 				width: 100px;
 				border-radius: 50%;
@@ -108,6 +108,7 @@ body{
 }
 
 .row{
+	
 	&:after {
   	content: "";
   	display: table;
