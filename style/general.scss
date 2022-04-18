@@ -21,6 +21,7 @@ body{
 	.headerImage{
 		
 		a{
+			
 			img{
 				width: 100px;
 				border-radius: 50%;
@@ -72,8 +73,8 @@ body{
   padding-right: 1.25%;
 
 	@media screen and (max-width: 800px) {  
-			width: 100%;
-			padding: 0;
+		width: 100%;
+		padding: 0;
 	}
 }
 
@@ -123,9 +124,9 @@ body{
   overflow-wrap: break-word;
 
 	@media(max-width: 600px){
-			display: flex;
-			flex-direction: column;
-			gap: 0.2rem;
-			font-size: 12px;
+		display: flex;
+		flex-direction: column;
+		gap: 0.2rem;
+		font-size: 12px;
 	}
 }
