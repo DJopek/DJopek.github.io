@@ -1,0 +1,29 @@
+.header{
+  padding: 30px;
+	background: white;
+	text-align: center;
+	box-shadow: 2px 2px 10px rgba(0, 0, 0, .5);
+
+	.headerImage{
+
+		a{
+
+			img{
+				width: 100px;
+				border-radius: 50%;
+				transition: 0.3s;
+				border: 2px solid transparent;
+				box-shadow: 1px 1px 3px black;
+				
+				&:hover{
+		  		transform: rotate(1turn);
+  				border: 2px solid black;
+				}
+			}
+		}
+	}
+  
+	& > h1{
+		font-size: 50px;
+	}
+}

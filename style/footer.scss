@@ -1,0 +1,15 @@
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, .5);
+  overflow-wrap: break-word;
+
+	@media(max-width: 600px){
+		display: flex;
+		flex-direction: column;
+		gap: 0.2rem;
+		font-size: 12px;
+	}
+}
