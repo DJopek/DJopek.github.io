@@ -1,26 +1,49 @@
-.blog {
-  display: -ms-grid;
-  display: grid;
-  text-align: center;
+.card_blog {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+  height: 200px;
 }
 
-.blogcontainer {
-  display: -ms-grid;
-  display: grid;
-  margin-left: 25%;
-  margin-right: 75%;
-  place-items: center;
+.prvy {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-right: 1.25%;
 }
 
-.post {
-  -webkit-box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
-          box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
-  overflow-wrap: break-word;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
+@media screen and (max-width: 800px) {
+  .prvy {
+    width: 100%;
+    padding: 0;
+  }
 }
 
-.blog .blogcontainer .post:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+.stred {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 1.25%;
+  padding-right: 1.25%;
+}
+
+@media screen and (max-width: 800px) {
+  .stred {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+.kraj {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 1.25%;
+}
+
+@media screen and (max-width: 800px) {
+  .kraj {
+    width: 100%;
+    padding: 0;
+  }
 }

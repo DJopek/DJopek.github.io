@@ -133,7 +133,6 @@ body {
         -ms-flex-direction: column;
             flex-direction: column;
     gap: 0.2rem;
-    /* overflow-wrap: break-word; */
     font-size: 12px;
   }
 }

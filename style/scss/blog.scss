@@ -1,21 +1,43 @@
-.blog{
-	display: grid;
-	text-align: center;
+.card_blog {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+	height: 200px;
 }
 
-.blogcontainer{
-	display: grid;
-	margin-left: 25%;
-	margin-right: 75%;
-	place-items: center;
+.prvy {   
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+	padding-right: 1.25%;
+
+	@media screen and (max-width: 800px) {  
+		width: 100%;
+		padding: 0;
+	}
 }
 
-.post{
-	box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
-  overflow-wrap: break-word;
-	transition: 0.5s;
+.stred{
+	float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+	padding-left: 1.25%;
+	padding-right: 1.25%;
+
+	@media screen and (max-width: 800px) {  
+		width: 100%;
+		padding: 0;
+	}
 }
 
-.blog .blogcontainer .post:hover{
-	transform: scale(1.1);
+.kraj {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+	padding-left: 1.25%;
+
+	@media screen and (max-width: 800px) {  
+		width: 100%;
+		padding: 0;
+	}
 }
