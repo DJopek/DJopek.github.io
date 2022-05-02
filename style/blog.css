@@ -2,7 +2,7 @@
   background-color: white;
   padding: 20px;
   margin-top: 20px;
-  height: 350px;
+  height: 400px;
   -webkit-box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
           box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
   overflow-wrap: break-word;
@@ -13,8 +13,8 @@
 }
 
 .card_blog:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  -webkit-transform: scale(1.08);
+          transform: scale(1.08);
 }
 
 .post {
